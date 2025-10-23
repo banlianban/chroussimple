@@ -70,7 +70,7 @@ html,body{overflow-x:hidden}
 .controls-row{grid-template-columns:1fr;gap:10px}
 .controls-left{justify-content:stretch}
 .controls-left .field{width:100%;justify-content:space-between}
-.controls-left .field label{white-space:normal}
+.controls-left .field label{white-space:nowrap}
 .controls-left .field select{min-width:0;width:100%}
 .controls-center{justify-content:stretch}
 button.primary{width:100%}
