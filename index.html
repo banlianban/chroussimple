@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChorusClip – Online Chorus Detection and Clip Maker</title>
+  <link rel="icon" type="image/png" href="/favicon.ico">
+  <link rel="preconnect" href="https://v1.chorusclip.com">
+  <link rel="stylesheet" href="/styles.css">
+  <meta id="meta-desc" name="description" content="Upload a song for accurate chorus detection and instant, beat-aligned clip exports in 10/15/30 seconds. Fast, precise, creator-friendly.">
+  <meta id="meta-keys" name="keywords" content="chorus detection, chorus clip, music highlight, audio clipping, hook detector, beat aligned, batch clips, bgm tool">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0G7J348G9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-0G7J348G9V');
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="/logo.png" alt="ChorusClip Logo" class="logo">
+      <div class="brand-text">
+        <h1 data-i18n="brand">ChorusClip</h1>
+        <p class="domain">chorusclip.com</p>
+      </div>
+    </div>
+    <div class="lang-switcher">
+      <label for="lang" class="sr-only">Language</label>
+      <select id="lang">
+        <option value="zh">中文</option>
+        <option value="en" selected>English</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="es">Español</option>
+        <option value="ru">Русский</option>
+        <option value="it">Italiano</option>
+        <option value="tr">Türkçe</option>
+        <option value="pl">Polski</option>
+        <option value="uk">Українська</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="th">ไทย</option>
+        <option value="id">Bahasa Indonesia</option>
+        <option value="ms">Bahasa Melayu</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 class="hero-title" data-i18n="hero_title">Online Chorus Detection & Clip Maker</h2>
+      <p class="hero-subtitle" data-i18n="hero_sub">Upload a song for accurate chorus detection and instant, beat‑aligned clips in 10/15/30 seconds. Fast, precise, creator‑friendly.</p>
+    </section>
+
+    <section class="uploader">
+      <div class="uploader-grid">
+        <div class="uploader-left">
+          <form id="uploadForm">
+            <div class="field" style="margin-bottom:18px">
+              <div id="dropzone" class="dropzone" role="button" tabindex="0" aria-label="Upload or drop audio file">
+                <div class="dropzone-icon" aria-hidden="true">🎵</div>
+                <div class="dropzone-text">
+                  <strong data-i18n="drop_title">Drag & drop your audio here</strong>
+                  <span data-i18n="drop_sub">or click to select file</span>
+                </div>
+                <input type="file" id="file" name="file" accept=".mp3,.wav,.flac,.aac,.ogg" required hidden>
+              </div>
+              <div id="fileInfo" class="file-info" hidden></div>
+            </div>
+
+            <div class="controls-row">
+              <div class="controls-left">
+                <div class="field" style="margin:0">
+                  <label for="duration" style="margin:0" data-i18n="duration_label">Chorus duration</label>
+                  <select id="duration" name="duration">
+                  <option value="5" data-i18n="dur_5">5 seconds</option>
+                  <option value="15" data-i18n="dur_15">15 seconds</option>
+                  <option value="30" selected data-i18n="dur_30">30 seconds</option>
+                  </select>
+                </div>
+              </div>
+              <div class="controls-center">
+                <button type="submit" id="submitBtn" class="primary" data-i18n="extract_btn">Extract chorus</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="limits" class="notice">
+        <span class="limit-item"><strong data-i18n="limits_supported">Supported formats:</strong> <span id="limit-formats">mp3, wav, flac, aac, ogg</span></span>
+        <span class="limit-item"><strong data-i18n="limits_max_size">Max file size:</strong> <span id="limit-max-size">50MB</span></span><br>
+        <span class="limit-item"><strong data-i18n="limits_max_len">Max audio length:</strong> <span id="limit-max-length">15 minutes</span></span>
+        <span class="limit-item"><strong data-i18n="limits_min_len">Minimum audio length:</strong> <span id="limit-min-length">2 minutes</span></span>
+        <span class="limit-item"><strong data-i18n="limits_clip_dur">Clip duration:</strong> <span id="limit-clip-duration">30s</span></span>
+      </div>
+
+      
+
+      <div id="error" class="error" hidden></div>
+    </section>
+
+    <section id="progressSection" class="processing-section" hidden>
+      <div id="progress" class="progress" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <span id="progressText">Processing…</span>
+      </div>
+    </section>
+
+    <section id="resultSection" class="result" hidden>
+      <h3 data-i18n="result_title">Result</h3>
+      <p id="chorusInfo"></p>
+      <audio id="player" controls></audio>
+      <div class="actions">
+        <a id="downloadLink" href="#" download data-i18n="download_btn">Download chorus</a>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="site-footer">
+    <p>support@chorusclip.com</p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
+

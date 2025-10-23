@@ -1,0 +1,45 @@
+中英文三件套
+
+Title:
+ChorusClip – Online Chorus Detection and Clip Maker
+
+Meta Description:
+Upload a song for accurate chorus detection and instant, beat-aligned clip exports in 10/15/30 seconds. Fast, precise, creator-friendly.
+
+Meta Keywords:
+chorus detection, chorus clip, music highlight, audio clipping, hook detector, beat aligned, batch clips, bgm tool
+
+Title（标题）
+ChorusClip – 在线副歌检测与片段生成器
+
+Meta Description（描述）
+上传歌曲，精准检测副歌，一键导出 10/15/30 秒节拍对齐片段。快速、准确，面向创作者与剪辑者的在线工具。
+
+Meta Keywords（关键词）
+副歌检测, 副歌片段, 音乐高光, 音频剪辑, Hook 检测, 节拍对齐, 批量处理, BGM 工具, 在线
+
+
+
+我准备搭建一个副歌检测及截取站点
+1. 网站调用api实现 目录下我放了API使用说明.md  请根据里面的说明调用实现
+2. 域名 chorusclip.com
+3. 默认页面语言英文   
+4. chorus-web目录里面有logo和fav 
+5. 截取结果支持 在线试听 下载
+6. 注明 格式 文件大小 音频时长限制 
+
+
+
+
+5. 需要生成一个dockerfile文件  （Webhook URL:
+http://148.230.85.245:3000/api/deploy/uFRk_Mh0ApqgAdZeu89Hy） 
+6. 对应的github仓库 https://github.com/banlianban/chorusweb  分支main
+
+
+
+质量默认高 
+长音频模式默认不开启
+
+去掉这两个选项
+
+在网页中注明 时长 大小 格式限制
