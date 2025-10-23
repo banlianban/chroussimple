@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- 主页 - 英文 -->
+  <url>
+    <loc>https://chorusclip.com/</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chorusclip.com/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chorusclip.com/zh" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chorusclip.com/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chorusclip.com/ko" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chorusclip.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chorusclip.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chorusclip.com/es" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chorusclip.com/ru" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chorusclip.com/it" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://chorusclip.com/tr" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://chorusclip.com/pl" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://chorusclip.com/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://chorusclip.com/vi" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://chorusclip.com/th" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://chorusclip.com/id" />
+    <xhtml:link rel="alternate" hreflang="ms" href="https://chorusclip.com/ms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://chorusclip.com/ar" />
+  </url>
+
+  <!-- 中文版本 -->
+  <url>
+    <loc>https://chorusclip.com/zh</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 日文版本 -->
+  <url>
+    <loc>https://chorusclip.com/ja</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 韩文版本 -->
+  <url>
+    <loc>https://chorusclip.com/ko</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 法文版本 -->
+  <url>
+    <loc>https://chorusclip.com/fr</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 德文版本 -->
+  <url>
+    <loc>https://chorusclip.com/de</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 西班牙文版本 -->
+  <url>
+    <loc>https://chorusclip.com/es</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 俄文版本 -->
+  <url>
+    <loc>https://chorusclip.com/ru</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 意大利文版本 -->
+  <url>
+    <loc>https://chorusclip.com/it</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 土耳其文版本 -->
+  <url>
+    <loc>https://chorusclip.com/tr</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 波兰文版本 -->
+  <url>
+    <loc>https://chorusclip.com/pl</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 乌克兰文版本 -->
+  <url>
+    <loc>https://chorusclip.com/uk</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 越南文版本 -->
+  <url>
+    <loc>https://chorusclip.com/vi</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 泰文版本 -->
+  <url>
+    <loc>https://chorusclip.com/th</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 印尼文版本 -->
+  <url>
+    <loc>https://chorusclip.com/id</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 马来文版本 -->
+  <url>
+    <loc>https://chorusclip.com/ms</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 阿拉伯文版本 -->
+  <url>
+    <loc>https://chorusclip.com/ar</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 静态资源 -->
+  <url>
+    <loc>https://chorusclip.com/robots.txt</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://chorusclip.com/sitemap.xml</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
