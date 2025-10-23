@@ -14,6 +14,8 @@ COPY styles.css ./
 COPY app.js ./
 COPY logo.png ./
 COPY favicon.ico ./
+COPY robots.txt ./
+COPY sitemap.xml ./
 
 # Nginx config with SPA fallback for /{lang}/ paths
 COPY nginx.conf /etc/nginx/conf.d/default.conf
